@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>O.ODP.AdoToGithubMigration.API</name>
+    </assembly>
+    <members>
+        <member name="M:O.ODP.AdoToGithubMigration.API.Extensions.LoggerConfigurationExtensions.ConfigureLoggerConfiguration(Serilog.LoggerConfiguration,O.ODP.AdoToGithubMigration.API.Configurations.ServiceConfiguration,System.String)">
+            <summary>
+            Configures the logger configuration.
+            </summary>
+            <param name="loggerConfiguration">The logger configuration.</param>
+            <param name="serviceConfiguration">The service configuration.</param>
+        </member>
+        <member name="M:O.ODP.AdoToGithubMigration.API.Extensions.SwaggerExtensions.ConfigureDocumentationFromXmlComments(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            Adds documentation to the api from the XML documentation/comments added in the controller class.
+            </summary>
+            <param name="options">The swagger options object.</param>
+        </member>
+    </members>
+</doc>
